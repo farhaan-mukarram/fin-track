@@ -8,9 +8,9 @@ const Navbar = () => {
         as="nav"
         alignItems="center"
         justifyContent="space-between"
-        background="#4A89DC"
+        background="blue.500"
         paddingX="20"
-        paddingY="4"
+        paddingY="6"
         width="100%"
       >
         <Box>

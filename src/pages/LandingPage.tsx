@@ -30,7 +30,7 @@ const LandingPage = () => {
             as="h2"
             fontSize="6xl"
             fontWeight="bold"
-            textColor="blue.600"
+            textColor="blue.500"
           >
             FinTrack
           </Heading>
@@ -58,7 +58,7 @@ const LandingPage = () => {
             as="h2"
             fontSize="6xl"
             fontWeight="bold"
-            textColor="blue.600"
+            textColor="blue.500"
           >
             Lorem ipsum dolor sit.
           </Heading>
@@ -84,7 +84,7 @@ const LandingPage = () => {
             as="h2"
             fontSize="6xl"
             fontWeight="bold"
-            textColor="blue.600"
+            textColor="blue.500"
           >
             Lorem ipsum dolor sit.
           </Heading>
