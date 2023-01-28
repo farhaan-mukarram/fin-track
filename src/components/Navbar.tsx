@@ -11,6 +11,7 @@ const Navbar = () => {
         background="#4A89DC"
         paddingX="20"
         paddingY="4"
+        width="100%"
       >
         <Box>
           <Heading
