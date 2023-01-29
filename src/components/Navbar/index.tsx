@@ -16,12 +16,13 @@ const Navbar = () => {
       as="nav"
       alignItems="center"
       justifyContent="space-between"
-      background="blue.500"
+      width="100%"
+      position="sticky"
+      top="0"
+      zIndex="9999"
       paddingX={{ base: "8", md: "20" }}
       paddingY="6"
-      width="100%"
-      position="relative"
-      zIndex="9999"
+      background="blue.500"
     >
       <Heading as="h1" fontWeight="extrabold" fontSize="3xl" textColor="white">
         FinTrack
