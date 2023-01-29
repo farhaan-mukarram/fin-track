@@ -1,9 +1,9 @@
-import Navbar from "../components/Navbar";
-import LandingPageSection from "../components/LandingPage/LandingPageSection";
-import LandingPageHeader from "../components/LandingPage/LandingPageHeader";
+import Navbar from "../../components/Navbar";
+import LandingPageSection from "../../components/LandingPage/LandingPageSection";
+import LandingPageHeader from "../../components/LandingPage/LandingPageHeader";
 
-import savingsImageUrl from "../assets/savings_illustration.svg";
-import paymentImageUrl from "../assets/payments_illustration.svg";
+import savingsImageUrl from "../../assets/savings_illustration.svg";
+import paymentImageUrl from "../../assets/payments_illustration.svg";
 
 const LandingPage = () => {
   return (
