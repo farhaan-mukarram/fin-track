@@ -22,16 +22,25 @@ const LandingPageSection = ({
   return (
     <Flex
       as="section"
-      marginTop={marginTop ?? "0"}
+      marginTop={{ base: marginTop ?? "0" }}
       align="center"
       paddingX="7"
       width="100%"
       marginBottom={marginBottom ?? "0"}
-      direction={direction ?? "row"}
+      direction={{ base: "column", md: direction ?? "row" }}
     >
-      <Image src={imageUrl} maxHeight="30rem" maxWidth="35rem" />
-      <Stack paddingX="8">
-        <Heading as="h2" fontSize="6xl" fontWeight="bold" textColor="blue.500">
+      <Image
+        src={imageUrl}
+        height="auto"
+        minWidth="22rem"
+        maxHeight="30rem"
+        maxWidth={{ base: "100%", md: "35rem" }}
+        width="100%"
+        paddingX={{ base: "8", md: "0" }}
+      />
+
+      <Stack paddingX="8" marginTop={{ base: "8", md: "0" }}>
+        <Heading as="h2" fontSize="5xl" fontWeight="bold" textColor="blue.500">
           {headingText}
         </Heading>
         <Text as="p" fontSize="2xl">
