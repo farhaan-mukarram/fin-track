@@ -34,16 +34,25 @@ const LandingPageSection = ({
         height="auto"
         minWidth="22rem"
         maxHeight="30rem"
-        maxWidth={{ base: "100%", md: "35rem" }}
+        maxWidth={{ base: "100%", sm: "35rem" }}
         width="100%"
         paddingX={{ base: "8", md: "0" }}
       />
 
-      <Stack paddingX="8" marginTop={{ base: "8", md: "0" }}>
-        <Heading as="h2" fontSize="5xl" fontWeight="bold" textColor="blue.500">
+      <Stack
+        paddingX={{ base: "0", md: "8" }}
+        marginTop={{ base: "8", md: "0" }}
+      >
+        <Heading
+          as="h2"
+          fontSize={{ base: "4xl", sm: "5xl" }}
+          fontWeight="bold"
+          textColor="blue.500"
+          textAlign={{ base: "center", md: "left" }}
+        >
           {headingText}
         </Heading>
-        <Text as="p" fontSize="2xl">
+        <Text as="p" fontSize="2xl" textAlign={{ base: "center", md: "left" }}>
           {paragraphText}
         </Text>
       </Stack>

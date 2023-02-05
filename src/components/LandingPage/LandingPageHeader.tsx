@@ -12,7 +12,7 @@ const LandingPageHeader = () => {
       <Stack
         direction="column"
         align="center"
-        paddingX="16"
+        paddingX={{ base: "6", md: "16" }}
         maxWidth="7xl"
         marginX="auto"
         width="100%"
@@ -25,7 +25,7 @@ const LandingPageHeader = () => {
         <Text as="h3" fontSize="4xl">
           Simplifying Your Finances
         </Text>
-        <Text as="p" fontSize="xl">
+        <Text as="p" fontSize="2xl">
           Easily track your income and expenses, and set budgets all in one
           place!
         </Text>

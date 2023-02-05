@@ -20,7 +20,7 @@ const Navbar = () => {
       position="sticky"
       top="0"
       zIndex="9999"
-      paddingX={{ base: "8", md: "20" }}
+      paddingX={{ base: "8", lg: "20" }}
       paddingY="6"
       background="blue.500"
     >
