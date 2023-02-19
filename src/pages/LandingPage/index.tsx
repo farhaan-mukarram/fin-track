@@ -1,6 +1,7 @@
 import Navbar from "../../components/Navbar";
 import LandingPageSection from "../../components/LandingPage/LandingPageSection";
 import LandingPageHeader from "../../components/LandingPage/LandingPageHeader";
+import LandingPageFooter from "../../components/LandingPage/LandingPageFooter";
 
 import savingsImageUrl from "../../assets/savings_illustration.svg";
 import paymentImageUrl from "../../assets/payments_illustration.svg";
@@ -30,6 +31,8 @@ const LandingPage = () => {
         marginBottom="32"
         direction="row-reverse"
       />
+
+      <LandingPageFooter />
     </>
   );
 };
