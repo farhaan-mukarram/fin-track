@@ -42,7 +42,7 @@ const LandingPageFooter = () => {
 
       <GridItem>
         <Stack>
-          <Heading as="h4" fontSize="xl">
+          <Heading as="h4" fontSize="xl" textColor="blue.500">
             Links
           </Heading>
           <Stack as="nav">{renderFooterLinks(NAVIGATION_LINKS)}</Stack>
@@ -51,7 +51,7 @@ const LandingPageFooter = () => {
 
       <GridItem>
         <Stack>
-          <Heading as="h4" fontSize="xl">
+          <Heading as="h4" fontSize="xl" textColor="blue.500">
             Contact Information
           </Heading>
           <Stack>
@@ -67,7 +67,7 @@ const LandingPageFooter = () => {
 
       <GridItem>
         <Stack>
-          <Heading as="h4" fontSize="xl">
+          <Heading as="h4" fontSize="xl" textColor="blue.500">
             Connect with us
           </Heading>
           <Stack as="nav">{renderFooterLinks(SOCIAL_LINKS)}</Stack>
