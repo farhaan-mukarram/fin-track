@@ -1,5 +1,18 @@
 import { Grid, GridItem, Heading, Link, Stack, Text } from "@chakra-ui/react";
 
+const SOCIAL_LINKS = ["Facebook", "Instagram", "Twitter", "LinkedIn"];
+
+const NAVIGATION_LINKS = [
+  "Home",
+  "Contact Us",
+  "FAQs",
+  "Terms & Conditions",
+  "Privacy Policy",
+];
+
+const renderFooterLinks = (links: String[]) =>
+  links.map((link) => <Link>{link}</Link>);
+
 const LandingPageFooter = () => {
   return (
     <Grid
@@ -32,13 +45,7 @@ const LandingPageFooter = () => {
           <Heading as="h4" fontSize="xl">
             Links
           </Heading>
-          <Stack as="nav">
-            <Link>Home</Link>
-            <Link>Contact Us</Link>
-            <Link>FAQs</Link>
-            <Link>Terms & Conditions</Link>
-            <Link>Privacy Policy</Link>
-          </Stack>
+          <Stack as="nav">{renderFooterLinks(NAVIGATION_LINKS)}</Stack>
         </Stack>
       </GridItem>
 
@@ -63,12 +70,7 @@ const LandingPageFooter = () => {
           <Heading as="h4" fontSize="xl">
             Connect with us
           </Heading>
-          <Stack as="nav">
-            <Link>Facebook</Link>
-            <Link>Instagram</Link>
-            <Link>Twitter</Link>
-            <Link>LinkedIn</Link>
-          </Stack>
+          <Stack as="nav">{renderFooterLinks(SOCIAL_LINKS)}</Stack>
         </Stack>
       </GridItem>
     </Grid>
